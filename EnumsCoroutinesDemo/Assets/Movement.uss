@@ -1,0 +1,21 @@
+#panel {
+    position: absolute;
+    width: 300px;
+    height: 160px;
+    bottom: 0;
+    right: 0;
+}
+
+.button {
+    width: 60px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    white-space: pre;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.row {
+    flex-direction: row;
+    justify-content: space-between;
+}

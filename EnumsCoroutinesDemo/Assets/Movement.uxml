@@ -1,0 +1,11 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Movement.uss?fileID=7433441132597879392&amp;guid=6435cfba8b0efbe4d86a70c4415cbefa&amp;type=3#Movement" />
+    <engine:GroupBox name="panel">
+        <engine:Button text="Up&#10;" name="up" class="button" style="align-self: center;" />
+        <engine:GroupBox class="row">
+            <engine:Button text="Left" name="left" class="button" />
+            <engine:Button text="Right" name="right" class="button" />
+        </engine:GroupBox>
+        <engine:Button text="Down" name="down" class="button center" />
+    </engine:GroupBox>
+</engine:UXML>
